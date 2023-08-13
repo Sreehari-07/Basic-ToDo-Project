@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h4 class="card-title">Edit Task</h4>
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ f.as_p }}
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-danger">Update</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

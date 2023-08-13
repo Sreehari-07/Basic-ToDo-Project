@@ -1,0 +1,4 @@
+Super user : admin
+Password : 1234
+
+Virtual Environment : todo
