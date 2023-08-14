@@ -1,4 +1,1 @@
-Super user : admin
-Password : 1234
-
-Virtual Environment : todo
+Basic Todo Project in Python
